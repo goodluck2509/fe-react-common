@@ -16,3 +16,23 @@
 - `npm run build`
 - Push code to gitlab
 - Waiting for GitLap deploy your package. Then you can use it in your project
+# Descriptions
+- Loader với Webpack
+- Loader là cách chỉ ra cho Webpack xử lý loại file củ thể, cấu hình cần tối thiểu chỉ ra
+
+`test` chỉ ra loại file cần chuyển đổi
+`use` các loader sử dụng cho file đó
+const path = require('path');
+
+module.exports = {
+  module: {
+    rules: [
+      { test: /\.txt$/,
+        use: [
+                {loader: "loader1"},
+                {loader: "loader2"}
+             ]
+      }
+    ]
+  }
+};
