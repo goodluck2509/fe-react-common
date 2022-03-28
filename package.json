@@ -14,10 +14,12 @@
   "license": "ISC",
   "dependencies": {
     "@material-ui/core": "^4.12.3",
+    "@material-ui/lab": "^4.0.0-alpha.60",
     "cross-env": "^7.0.3",
     "css-loader": "^6.7.1",
     "cssnano": "^5.1.5",
     "file-loader": "^6.2.0",
+    "glob": "^7.2.0",
     "lodash": "^4.17.21",
     "moment": "^2.29.1",
     "node-sass": "^7.0.1",
