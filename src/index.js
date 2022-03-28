@@ -1,10 +1,13 @@
-import _ from "lodash";
-import { sum } from "./libs/sum";
+// import { sum } from "./sum";
+import "./image.js";
+import React from "react";
+import ReactDom from "react-dom";
+import TextField from "./TextField";
 
-const moment = require("moment");
-
-console.log("🚀 ~ from");
-
-console.log("🚀 ~ sum", sum(3, 4));
-
-console.log("🚀 avasvsv", sum(3, 4));
+ReactDom.render(
+  <>
+    <h1>Hello World</h1>
+    <TextField />
+  </>,
+  document.getElementById("root")
+);
