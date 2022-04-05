@@ -1,6 +1,6 @@
 {
   "name": "fe-react-common",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "Do you want to use react-common?",
   "main": "index.js",
   "scripts": {
